@@ -1,0 +1,150 @@
+
+.nav-container{
+    background-color: #0C3B2E;
+    color:white;
+    padding: 20px;
+}
+.link-Item{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: roboto;
+    font-size: x-large;
+    font-weight: 200;
+    background-color: #0C3B2E;
+    border-style: none;
+}
+.baner-contaier{
+    height: 100vh;
+    background-image: url('https://res.cloudinary.com/muni/image/upload/v1721701618/charity%20project/rlasxfkbt25yl3zldvyy.jpg');
+    background-size:cover;
+}
+.fouter-container{
+    color:white;
+    background-color: #1e2120;
+    height: 150px;
+    width: 99.5vw;
+}
+.fouter-item{
+    margin: 15px;
+    margin-left: 30PX;
+    font-family: ROBOTO;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.add_charity_item{
+    padding: 50px;
+    width: 400px;
+    border: solid #0C3B2E;
+    margin-top: 40px;
+    border-radius: 20px;
+    background-color: #0C3B2E;
+}
+
+.add_charity_input{
+    border-radius: 10px;
+    border-style: none;
+    padding: 5px;
+    font-family: roboto;
+    font-size: x-large;
+    margin-left: 20px;
+    
+}
+.add_charity_lable{
+    font-family: roboto;
+    font-size: x-large;
+    color:white;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.add_charity_button{
+ border-radius: 15px;
+ border-style: none;
+ font-family: roboto;
+ font-size: x-large;
+ text-align: center;
+ width: 200px;
+ margin-top: 20px;
+ background-color: #B20303;
+ color:white;
+ margin-left: 20px;
+}
+.banner-heading{
+    padding-top: 180px;
+    padding-left: 40px;
+    color:#B20303;
+    font-family: roboto;
+    font-size: xx-large;
+    font-weight: 800;
+  
+}
+
+
+
+.payment-container{
+    background-color: #0C3B2E;
+    padding: 15PX;
+    margin: 10px;
+    font-family: ROBOTO;
+    font-size: larger;
+  
+    border-radius: 25px;
+    text-align: center;
+    padding-bottom: 50px;
+   
+}
+.payment-heding{
+    font-size: x-large;
+    font-weight: 700;
+    color: #ffffff;
+}
+.payment-item{
+    font-size: x-large;
+    color: #ffffff;
+    border: solid #ffffff 1px;
+
+    border-radius: 40px;
+}
+.charity-heading-dom{
+    color: white;
+}
+
+
+
+.charity-admincharity-data{
+
+}
+.charity-item-img-dom{
+    height:70%;
+    width: 70%;
+    border-radius: 10px;
+}
+.charity-item-container-dom{
+    background-color: #0C3B2E;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.charity-item-heading-dom{
+    font-family: roboto;
+    color:white;
+    font-size: xx-large;
+}
+.charity-item-discription{
+    font-family: roboto;
+    color:white;
+    font-size: x-large;
+}
+.payment-button{
+    border-style: none;
+    font-family: roboto;
+    background-color: #B20303;
+    color: white;
+    font-size: x-large;
+    border-radius: 10px;
+}

@@ -1,0 +1,62 @@
+.form-container{
+    background-color:#0C3B2E;
+}
+.form-item{
+    background-color: white;
+    width: 60%;
+    height: 50%;
+    padding: 40PX;
+    margin: 10%;
+    border-radius: 10px;
+}
+.input-item{
+    width: 95%;
+    font-family: roboto;
+    font-size: x-large;
+    border-radius: 15px;
+    border: solid rgb(234, 234, 234);
+    margin:2px;
+    padding: 5px;
+}
+.input-lable{
+   font-family: roboto;
+   font-size: x-large;
+}
+.button-item{
+    border-style: none;
+    margin: 2px;
+    margin-top: 20px;
+    text-align: center;
+    width: 95%;
+    border-radius: 15px;
+    background-color: #B20303;
+    color: white;
+    font-family: roboto;
+    font-size: x-large;
+    padding: 5px;
+}
+
+.details-container{
+    height: 100vh;
+    background-image: url('https://res.cloudinary.com/muni/image/upload/v1721829770/charity%20project/ftwuze5clejr9cuzfzkr.png');
+}
+.details-heading{
+   color:white;
+   font-family: roboto;
+   text-align: center;
+   margin-top: 60px;
+}
+.heading2{
+    color: white;
+    margin: 10px;
+    margin-top: 40px;
+    font-family: roboto;
+    font-size: x-large;
+    background-color: #0C3B2E;
+    padding: 10px;
+    border-radius: 10px;
+}
+.redirect-link{
+    margin: 10px;
+    color: #B20303;
+}

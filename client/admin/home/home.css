@@ -1,0 +1,138 @@
+.nav-container{
+    background-color: #0C3B2E;
+    color:white;
+    padding: 20px;
+}
+.link-Item{
+    margin: 10px;
+    background-color: transparent;
+    text-decoration: none;
+    font-family: roboto;
+    font-size: x-large;
+    font-weight: 200;
+    border-style: none;
+    color:white;
+}
+.baner-contaier{
+    height: 100vh;
+    background-image: url('https://res.cloudinary.com/muni/image/upload/v1721701618/charity%20project/rlasxfkbt25yl3zldvyy.jpg');
+    background-size:cover;
+}
+.fouter-container{
+    color:white;
+    background-color: #1e2120;
+    height: 150px;
+}
+.fouter-item{
+    margin: 15px;
+    margin-left: 30PX;
+    font-family: ROBOTO;
+   
+}
+
+.flex{
+    display: flex;
+}
+
+.dom-item{
+    
+    overflow: hidden;
+    color: white;
+    font-family: roboto;
+    font-size: x-large;
+    border: 2px solid white;
+
+}
+.dom-charity-container{
+    border-radius: 10px;
+    
+}
+.dom-item-name{
+    margin-top: 10px;
+    background:linear-gradient(to right,#ffffff,#0C3B2E) ;
+   
+    font-family: roboto;
+    font-size: xx-large;
+   border: 2px solid rgb(255, 255, 255);
+}
+.dom-charity-container-name{
+  
+  
+}
+.charity-items-container{
+   margin-left: 40px;
+}
+.dom-button{
+    border-style: none;
+    font-size: x-large;
+    font-family: roboto;
+    width: 60px;
+    height: 40px;
+    
+}
+
+.form-container{
+    margin-top: 80px;
+    margin: 80px;
+    /* background-color:#0C3B2E; */
+
+}
+.form-item{
+    background-color: white;
+    width: 60%;
+    height: 50%; 
+    border-radius: 10px;
+    padding: 40px;
+}
+.input-item{
+    width: 95%;
+    font-family: roboto;
+    font-size: x-large;
+    border-radius: 15px;
+    border: solid rgb(234, 234, 234);
+    margin:2px;
+    padding: 5px;
+}
+.input-lable{
+   font-family: roboto;
+   font-size: x-large;
+}
+.button-item{
+    border-style: none;
+    margin: 2px;
+    margin-top: 20px;
+    text-align: center;
+    width: 95%;
+    border-radius: 15px;
+    background-color: #B20303;
+    color: white;
+    font-family: roboto;
+    font-size: x-large;
+    padding: 5px;
+}
+
+.payment-container{
+    
+    padding: 15PX;
+    margin: 40PX;
+    font-family: ROBOTO;
+    font-size: larger;
+   
+    border-radius: 15px;
+    text-align: center;
+    padding-left: 80px;
+}
+.payment-heding{
+    font-size: x-large;
+    font-weight: 700;
+    color: #d8941e;
+    border: solid #d8941e 2px;
+    background-color: white;
+
+}
+.payment-item{
+    color: #ffffff;
+    border: solid #d8941e 2px;
+    background-color: rgb(46, 139, 162);
+    font-size: x-large;
+}

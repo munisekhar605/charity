@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Now Button with Razorpay</title>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body>
+
+<li class="col col-6-12">
+    <form>
+        <button class="QqFHMw vsIbG+ _3Y167G _7Pd1Fp" type="button" id="buy-now-button">
+            <span class="OGrnIL"></span>
+            "Buy Now"
+        </button>
+    </form>
+</li>
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        document.getElementById('buy-now-button').onclick = async function(e) {
+            e.preventDefault();
+
+            // Fetch order ID from server
+            const response = await fetch('http://localhost:3000/create-order', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+
+            if (!response.ok) {
+                alert('Failed to create order');
+                return;
+            }
+
+            const order = await response.json();
+
+            // Initialize Razorpay with server-side generated order ID
+            const options = {
+                "key": "YOUR_KEY_ID",
+                "amount": order.amount, // amount should be same as order.amount
+                "currency": order.currency,
+                "name": "Acme Corp",
+                "description": "Test Transaction",
+                "image": "https://example.com/your_logo",
+                "order_id": order.id,
+                "callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",
+                "prefill": {
+                    "name": "Gaurav Kumar",
+                    "email": "gaurav.kumar@example.com",
+                    "contact": "9000090000"
+                },
+                "notes": {
+                    "address": "Razorpay Corporate Office"
+                },
+                "theme": {
+                    "color": "#3399cc"
+                }
+            };
+
+            const rzp1 = new Razorpay(options);
+            rzp1.open();
+        }
+    });
+</script>
+
+</body>
+</html>

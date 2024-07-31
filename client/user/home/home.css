@@ -1,0 +1,178 @@
+.nav-container{
+    background-color: #0C3B2E;
+    color:white;
+    padding: 20px;
+}
+.link-Item{
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: roboto;
+    font-size: x-large;
+    font-weight: 200;
+}
+.baner-contaier{
+    height: 100vh;
+    background-image: url('https://res.cloudinary.com/muni/image/upload/v1721701618/charity%20project/rlasxfkbt25yl3zldvyy.jpg');
+    background-size:cover;
+}
+.fouter-container{
+    color:white;
+    background-color: #1e2120;
+    height: 150px;
+}
+.fouter-item{
+    margin: 15px;
+    margin-left: 30PX;
+    font-family: ROBOTO;
+   
+}
+
+.charity-item-container-dom{
+ border: solid gray;
+ border-radius: 10px;
+ background-color: #0C3B2E;
+ color: white;
+ text-align: center;
+ margin-bottom: 40px;
+ margin-left: 15px;
+ padding: 10px;
+
+}
+.charity-item-img-dom{
+    height:70%;
+    width: 70%;
+    border-radius: 10px;
+}
+.charity-item-heading-dom{
+    font-family:roboto;
+    font-size: x-large;
+    font-weight: 700;
+
+}
+.flex{
+    display: flex;
+}
+.charity-item-discription{
+    font-family: roboto;
+    font-size: x-large;
+    font-weight: 400;
+}
+.br{
+    background-color: #0C3B2E;
+    border-style: none;
+}
+.charity-heading-dom{
+    color: white;
+    background-color: #0C3B2E;
+    border-radius: 15px;
+}
+ .payment-container{
+    border: solid rgb(255, 13, 0);
+    margin: 15px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    font-family: roboto;
+    font-size: x-large;
+    text-align: center;
+    border:solid yellow 2px;
+ }
+.payment-heding{
+    font-size: x-large;
+    font-weight: 700;
+    border: solid #d37829;
+    border-radius: 15px;
+}
+.payment-item{
+ color: rgb(2, 96, 137);
+ font-family: roboto;
+}
+.payment-button{
+    border-radius: 10px;
+    border-style: none;
+    padding: 7px;
+    background-color: gold;
+    color: rgb(78, 20, 20);
+    font-family: roboto;
+    font-weight: 600;
+    font-size: x-large;
+}
+.nav-img{
+    width: 100%;
+}
+
+#Searchinput{
+    border-radius: 10px;
+    padding: 2px;
+    font-family: roboto;
+    font-size: large;
+}
+#Searchbutton{
+    border-radius: 10px;
+    padding: 2px;
+    font-family: roboto;
+    font-size: large;
+}
+.charity-item-heading2-dom{
+    color:#97c0aa;
+    font-family: roboto;
+}
+.form-container{
+    width: 40px;
+    border-radius: 25px;
+  
+    border: none;
+    margin: 50px;
+    padding: 20px;
+    color: white;
+    border: solid #0C3B2E;
+    padding: 40px;
+    background-color: #0C3B2E;
+    
+
+}
+.form-item{
+
+}
+.input-lable{
+    font-family: roboto;
+    border: none;
+    font-size: x-large;
+}
+.input-item{
+    height: 30px;
+    font-family: roboto;
+    border: none;
+    border-radius: 10px;
+    font-size: x-large;
+    width: 80%;
+    margin-bottom: 15px;
+
+}
+.button-item{
+    height: 30px;
+    font-family: roboto;
+    border: none;
+    border-radius: 10px;
+    font-size: x-large;
+    text-align: center;
+    width: 80%;
+    background-color: #B20303;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

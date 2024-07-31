@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="home.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body> 
+    <div  class="baner-contaier" >
+        <nav id="navbar" class="nav-container">
+            <a class="link-Item" href="">Home</a>
+            <button class="link-Item br" onclick="allPayments()">Payments</button>
+            <button class="link-Item br" onclick="userprofile()">User</button>
+         
+                <input id="Searchinput" placeholder="Enter charity name" type="text">
+                <button  id="Searchbutton" >Search</button>
+            
+        </nav>
+        <div id="userprofile"></div>
+        <div id="Payments-container"></div>
+    </div>
+    
+    <div id="charity-items-container" class=" row charity-items-container"></div>
+
+    <div>
+        <img class="nav-img" src="https://www.akshayapatra.org/includes/asset/image/footer_bg.png">
+    </div>
+    <!-- <button class="PaymentButton" id="rzp-button1">Pay</button> -->
+    <div class=" row fouter-container">
+        <div class="col-4">
+           <div class="fouter-item">
+            <h3>CONTACT</h3>
+            <p>Name:MuniSekhar</p>
+            <p>Email:munisekharudavalapati@gmail.com</p>
+           </div>
+        </div>
+        <div class="col-4">
+            <div class="fouter-item">
+             <h3>CONTACT</h3>
+             <p>Name:MuniSekhar</p>
+             <p>Email:munisekharudavalapati@gmail.com</p>
+            </div>
+         </div>
+         <div class="col-4">
+            <div class="fouter-item">
+             <h3>CONTACT</h3>
+             <p>Name:MuniSekhar</p>
+             <p>Email:munisekharudavalapati@gmail.com</p>
+            </div>
+         </div>
+    </div>
+
+
+
+
+
+    <!-- <button id="rzp-button1">Pay</button>
+    <button id="rzp-button1">Pay</button> -->
+<script src="home.js"></script>
+<!-- <script src="https://checkout.razorpay.com/v1/checkout.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</body>
+</html>
